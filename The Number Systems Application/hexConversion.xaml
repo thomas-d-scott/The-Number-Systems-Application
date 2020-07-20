@@ -1,0 +1,18 @@
+﻿<Window x:Class="The_Number_Systems_Application.hexConversion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:The_Number_Systems_Application"
+        mc:Ignorable="d"
+        Title="hexConversion" Height="444.536" Width="345.021" WindowStyle="None" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+    <Grid>
+        <TextBlock x:Name="txtTitle" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Hexadecimal Conversion Application" VerticalAlignment="Top" Width="320" Height="39" FontFamily="Tw Cen MT" FontSize="20" TextDecorations="Underline" TextAlignment="Center"/>
+        <Button x:Name="btnConvert" Content="Convert to Hex" HorizontalAlignment="Left" Margin="77,178,0,0" VerticalAlignment="Top" Width="181" Height="43" Click="btnConvert_Click"/>
+        <Button x:Name="btnQuit" Content="Exit to Main Page" HorizontalAlignment="Left" Margin="77,228,0,0" VerticalAlignment="Top" Width="181" Height="42" Click="btnQuit_Click"/>
+        <TextBox x:Name="txtDecimal" HorizontalAlignment="Left" Height="49" Margin="41,117,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="259"/>
+        <TextBox x:Name="txtHex" HorizontalAlignment="Left" Height="114" Margin="41,277,0,-50.333" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="259"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="54" Margin="10,56,0,0" TextWrapping="Wrap" Text="Insert a decimal value into the textbox below and click 'convert to hex' please." VerticalAlignment="Top" Width="320" TextAlignment="Center"/>
+
+    </Grid>
+</Window>

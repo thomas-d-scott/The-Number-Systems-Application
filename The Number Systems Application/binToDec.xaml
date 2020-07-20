@@ -1,0 +1,23 @@
+﻿<Window x:Class="The_Number_Systems_Application.binToDec"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:The_Number_Systems_Application"
+        mc:Ignorable="d"
+        Title="binToDec" Height="432.606" Width="511.187" WindowStyle="None" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="33,133,0,0" VerticalAlignment="Top" Width="443" Height="36" Click="btnStart_Click" Background="#FF00B2FF"/>
+        <Button x:Name="btnQuit" Content="Exit to Main Page" HorizontalAlignment="Left" Margin="33,347,0,0" VerticalAlignment="Top" Width="443" Height="35" Click="btnQuit_Click" Background="#FFFF2001"/>
+        <TextBlock x:Name="txtTitle" HorizontalAlignment="Left" Margin="31,10,0,0" TextWrapping="Wrap" Text="Binary to Decimal Conversion Questions" VerticalAlignment="Top" FontSize="20" Height="46" Width="445" TextAlignment="Center" TextDecorations="Underline" FontWeight="Bold"/>
+        <TextBlock x:Name="txtInstructions" HorizontalAlignment="Left" Height="48" Margin="31,59,0,0" TextWrapping="Wrap" Text="Click Start, then put your answer into the bottom text box and click 'Answer'." VerticalAlignment="Top" Width="445" TextAlignment="Center" TextDecorations="{x:Null}" FontStyle="Italic" FontWeight="Bold" FontSize="15"/>
+        <TextBox x:Name="txtBinary" HorizontalAlignment="Left" Height="40" Margin="31,213,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="444" IsEnabled="False"/>
+        <TextBox x:Name="txtGuess" HorizontalAlignment="Left" Height="40" Margin="31,260,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="444"/>
+        <Button x:Name="btnGuess" Content="Answer" HorizontalAlignment="Left" Margin="137,305,0,0" VerticalAlignment="Top" Width="239" Height="26" Background="#FF25E130" Click="btnGuess_Click"/>
+        <TextBlock x:Name="txtTitle3" HorizontalAlignment="Left" Height="18" Margin="31,189,0,0" TextWrapping="Wrap" Text="Binary Value" VerticalAlignment="Top" Width="444" TextAlignment="Center" FontWeight="Bold" TextDecorations="Underline"/>
+
+    </Grid>
+</Window>
